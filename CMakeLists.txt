@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.27)
-project(clion_demo)
+project(clion-demo)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(clion_demo main.cpp)
+add_executable(clion-demo main.cpp)
+add_executable(test-cmake day00/test-cmake.cpp)
